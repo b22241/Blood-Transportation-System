@@ -23,6 +23,7 @@ function App() {
             <Route path="/research" element={<Research />} />
             <Route path="/tabular-result" element={<TabularResult />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="*" element={<Home />} />
           </Routes>
         </div>
       </div>
