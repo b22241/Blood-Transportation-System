@@ -91,6 +91,11 @@ app.get("/history", async (req, res) => {
   }
 });
 
+app.get("/health", (req,res)=>{
+  res.send("OK");
+});
+
+
 /* ======================
    START SERVER
 ====================== */
